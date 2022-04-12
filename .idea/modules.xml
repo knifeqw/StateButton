@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/StateButton.iml" filepath="$PROJECT_DIR$/StateButton.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libary/libary.iml" filepath="$PROJECT_DIR$/libary/libary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StateButton.iml" filepath="$PROJECT_DIR$/.idea/modules/StateButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StateButton.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StateButton.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libary/StateButton.libary.iml" filepath="$PROJECT_DIR$/.idea/modules/libary/StateButton.libary.iml" />
     </modules>
   </component>
 </project>

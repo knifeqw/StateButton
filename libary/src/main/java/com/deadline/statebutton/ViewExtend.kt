@@ -3,10 +3,10 @@ package com.deadline.statebutton
 import android.content.res.ColorStateList
 import android.graphics.drawable.GradientDrawable
 import android.graphics.drawable.StateListDrawable
-import android.support.annotation.NonNull
-import android.support.v4.view.ViewCompat
+import androidx.core.view.ViewCompat
 import android.view.View
 import android.widget.TextView
+import androidx.annotation.NonNull
 
 /**
  * @author deadline

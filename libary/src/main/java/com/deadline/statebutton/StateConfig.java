@@ -1,8 +1,8 @@
 package com.deadline.statebutton;
 
-import android.support.annotation.ColorInt;
-import android.support.annotation.FloatRange;
-import android.support.annotation.IntRange;
+import androidx.annotation.ColorInt;
+import androidx.annotation.FloatRange;
+import androidx.annotation.IntRange;
 
 public final class StateConfig {
 

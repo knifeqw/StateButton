@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.StateListDrawable;
-import android.support.annotation.IntRange;
-import android.support.v7.widget.AppCompatImageView;
+import androidx.annotation.IntRange;
+import androidx.appcompat.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
 /**
@@ -53,12 +53,12 @@ public class StateImageView extends AppCompatImageView {
 
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.StateImageView);
 
-        mNormalDrawable = a.getDrawable(R.styleable.StateImageView_normalBackground);
-        mPressedDrawable = a.getDrawable(R.styleable.StateImageView_pressedBackground);
-        mUnableDrawable = a.getDrawable(R.styleable.StateImageView_unableBackground);
+        mNormalDrawable = a.getDrawable(R.styleable.StateImageView_sb_normalBackground);
+        mPressedDrawable = a.getDrawable(R.styleable.StateImageView_sb_pressedBackground);
+        mUnableDrawable = a.getDrawable(R.styleable.StateImageView_sb_unableBackground);
         setStateBackground(mNormalDrawable, mPressedDrawable, mUnableDrawable);
 
-        mDuration = a.getInteger(R.styleable.StateImageView_AnimationDuration, mDuration);
+        mDuration = a.getInteger(R.styleable.StateImageView_sb_AnimationDuration, mDuration);
         setAnimationDuration(mDuration);
         a.recycle();
     }
